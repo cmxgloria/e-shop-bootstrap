@@ -1,0 +1,195 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: 0.8rem;
+}
+.navbar-brand img {
+  width: 60px;
+  height: 50px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px rgb(129, 8, 8);
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px rgb(231, 50, 18);
+  padding-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: rgb(223, 99, 16);
+  border: 1px solid blue;
+}
+
+.btn-primary:hover {
+  background-color: rgb(28, 7, 221);
+  border: 1px solid rgb(89, 0, 255);
+}
+.jumbotron {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid green;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+.fa-fish {
+  color: red;
+}
+.fa-ice-cream {
+  color: pink;
+}
+
+.fa-hamburger {
+  color: brown;
+}
+.fa-fish,
+.fa-ice-cream,
+.fa-hamburger {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.about-us-img {
+  margin: 20px;
+}
+.about-us-img img {
+  width: 450px;
+  height: 350px;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: indianred;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr .light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px rgb(129, 8, 8);
+  }
+
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px rgb(231, 50, 18);
+    padding-bottom: 0.2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+}
+@media (max-width: 576px) {
+  .social a {
+    font-size: 2em;
+    padding: 1.2rem;
+  }
+  .carousel-caption {
+    top: 25%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+}

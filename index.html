@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E shop with bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <!-- header navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-lgiht sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://cdn.pixabay.com/photo/2020/05/21/18/17/cooking-5201968__480.png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-atuo">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- image slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/09/30/15/10/pizza-2802332__480.jpg"
+            alt=""
+          />
+          <div class="carousel-caption">
+            <h1 class="display-2">Diamond Restaurant</h1>
+            <h3>COOK WITH SOUL&HEART</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              VIEW DEMO
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">
+              GET STARTED
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/dish2.jpg" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/dish3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">
+            A tradition and popular HongKong Restaurant to let you enjoy the
+            best finest.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="#"
+            ><button type="button" class="btn btn-outline-secondary btn-lg">
+              History
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- shop introduction -->
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Welcome to Diamond Restaurant</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <p>
+            Welcome to Diamond Restaurant. We have Asian main course and
+            dessert. We also provide wine as well.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- three column section -->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-5 col-md-4">
+          <i class="fas fa-fish"></i>
+          <h3>MAIN COURSE</h3>
+          <p>Different Asian Food</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-ice-cream"></i>
+          <h3>DESERT&DRINK</h3>
+          <p>Enjoy Yummy Desert</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-hamburger"></i>
+          <h3>CHEF'S SPECIALS</h3>
+          <p>5 Stars Fresh Dishes</p>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+    <!-- two column section -->
+    <div class="contain-fluid padding">
+      <div class="row about-us-img padding">
+        <div class="col-lg-6">
+          <h2>About us</h2>
+          <p>
+            Diamond restaurant focuses on fresh and high-quality ingredients.
+            Most of our famous dishes are based on authentic Malaysian recipe
+            which is created in Contonese kitchen from scratch.
+          </p>
+          <p>
+            Owner and culinary extraordinaire, Esmond has been in the restaurant
+            business since the early 1980s. Head Chef, Mike Chen has more than
+            30 years’ experience including executive head chef in 5-star hotels
+            and fine dining establishments.
+          </p>
+          <a href="#" class="btn btn-primary">More</a>
+        </div>
+        <div class="col-md-6">
+          <img
+            class=""
+            src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- category -->
+    <div class="contain-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Enjoy Your Meal</h1>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <!-- card photos -->
+    <div class="contain-fluid padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.laksaking.com.au/flemington/wp-content/uploads/2019/03/dinig-menu-1024x505.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Laksa</h4>
+              <p class="card-text">Steam with chicken, beanshoot, eggplant</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Desert</h4>
+              <p class="card-text">Ice Cream</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Drink</h4>
+              <p class="card-text">Red Wine and Beer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu -->
+    <div class="contain-fluid padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <h2>Menu Part1</h2>
+          <img src="https://i.imgur.com/568SHRc.png" alt="" />
+        </div>
+        <div class="col-md-4">
+          <h2>Menu Part2</h2>
+          <img src="https://i.imgur.com/zTWXFhp.png" alt="" />
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+    <!-- connect -->
+    <div class="contain-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="contain-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-md-4">
+            <hr class="light" />
+            <h3>Contact & Address</h3>
+            <p>03-9888 9888</p>
+            <p>122 Burgundy st, Heidelberg, 3084</p>
+            <hr class="light" />
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h3>Opening Hours</h3>
+            <p>Monday 11:30 AM - 9:30 PM</p>
+            <p>Tuesday Closed</p>
+            <p>Wednesday 11:30 AM - 9:30 PM</p>
+            <p>Thursday 11:30 AM - 9:30 PM</p>
+            <p>Friday 11:30 AM - 9:30 PM</p>
+            <p>Saturday 11:30 AM - 9:30 PM</p>
+            <p>Sunday 5:00 PM - 9:30 PM</p>
+            <hr class="light" />
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h3>Delivery Service Areas</h3>
+            <p>Delivery Area Postcode</p>
+            <p>
+              3079 Ivanhoe, 3079 Ivanhoe East, 3081 Bellfield, 3081 Heidelberg
+              Heights, 3081 Heidelberg West, 3084 Eaglemont, 3084 Heidelberg,
+              3084 Rosanna, 3084 Viewbank, 3085 Macleod, 3085 Yallambie, 3087
+              Watsonia, 3105 Bulleen, 3107 Templestowe Lower
+            </p>
+            <hr />
+          </div>
+          <div class="col-12">
+            <hr class="light" />
+            <h5>&copy; 2020 CodeSpace</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
