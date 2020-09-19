@@ -142,8 +142,54 @@ hr .light {
   margin-bottom: 1rem;
 }
 @media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
 }
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px rgb(129, 8, 8);
+  }
+
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px rgb(231, 50, 18);
+    padding-bottom: 0.2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
 }
 @media (max-width: 576px) {
+  .social a {
+    font-size: 2em;
+    padding: 1.2rem;
+  }
+  .carousel-caption {
+    top: 25%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
 }
