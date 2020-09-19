@@ -12,7 +12,7 @@
   "scripts": {
     "test": "test",
     "predeploy": "npm build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
