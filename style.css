@@ -96,12 +96,50 @@ body {
   margin-bottom: 15px;
 }
 
-.about-us-img col-lg-6 {
-  margin-left: 10px;
+.about-us-img {
+  margin: 20px;
 }
 .about-us-img img {
   width: 450px;
   height: 350px;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: indianred;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr .light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
 }
 @media (max-width: 992px) {
 }
