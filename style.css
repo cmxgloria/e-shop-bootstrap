@@ -66,7 +66,12 @@ body {
 .padding {
   padding-bottom: 2rem;
 }
-
+.card {
+  height: 100%;
+}
+.card img {
+  height: 70%;
+}
 .welcome {
   width: 75%;
   margin: 0 auto;
@@ -128,7 +133,10 @@ body {
 .fa-youtube:hover {
   color: #d5d5d5;
 }
-
+.menu img {
+  width: 100%;
+  padding: 10px 10px;
+}
 footer {
   background-color: indianred;
   color: #d5d5d5;
@@ -178,7 +186,7 @@ hr .light {
     padding: 1.2rem;
   }
   .carousel-caption {
-    top: 25%;
+    top: 50%;
   }
   .carousel-caption h1 {
     font-size: 250%;
