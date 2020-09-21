@@ -22,9 +22,9 @@ body {
   padding-right: 20px;
 }
 
-.nav-link {
+/* .nav-link {
   font-size: 1.1em !important;
-}
+} */
 
 .carousel-inner {
   width: 100%;
@@ -133,9 +133,16 @@ body {
 .fa-youtube:hover {
   color: #d5d5d5;
 }
-.menu img {
+.mainmenu img {
   width: 100%;
   padding: 10px 10px;
+}
+.mainmenu h2 {
+  margin: 20px 20px;
+}
+
+.menu {
+  margin-top: 30px;
 }
 footer {
   background-color: indianred;
